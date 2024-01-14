@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Modules/project/colevn.study.api/bin/Debug/net6.0
+/Modules/project/colevn.study.api/obj
+/Modules/project/colevn.study.business/bin/Debug/net6.0
+/Modules/project/colevn.study.business/obj
+/Modules/project/colevn.study.Contact/bin/Debug/net6.0
+/Modules/project/colevn.study.Contact/obj
+/WebAPI/project-api/.config
+/WebAPI/project-api/.vs/project-api
+/WebAPI/project-api/bin/Debug/net6.0
+/WebAPI/project-api/obj
+/WebAPI/project-api/Properties/PublishProfiles
+/WebAPI/.vs
+/.vs/Colevn/FileContentIndex

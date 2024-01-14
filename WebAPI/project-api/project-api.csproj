@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>project_api</RootNamespace>
+    <UserSecretsId>86faf142-bc9b-4c5b-bdf3-75762bd55bef</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<!--<PackageReference Include="DevExpress.Document.Processor" Version="*" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.3" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="23.2.3" />
+    <PackageReference Include="DevExpress.Pdf.SkiaRenderer" Version="23.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />-->
+    <!--<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />-->
+    <!--<PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.88.6" />-->
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.25" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\project\colevn.study.api\colevn.study.api.csproj" />
+  </ItemGroup>
+
+</Project>
